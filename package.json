@@ -2,7 +2,7 @@
   "name": "dishdart",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonJS",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
