@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const dishes = require("./dishes.json");
 
 const app = express();
 
@@ -13,7 +14,7 @@ app.listen(PORT, () => console.log("Server up and running"));
 app.get("/", async (req, res) => {
   console.log("Get request");
   res.send({
-    message: "DishDart",
+    dishes,
   });
 });
 
