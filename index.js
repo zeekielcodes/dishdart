@@ -1,5 +1,7 @@
-const express = require("express");
-const cors = require("cors");
+import express from "express";
+import cors from "cors";
+// const express = require("express");
+// const cors = require("cors");
 
 const app = express();
 
@@ -18,4 +20,4 @@ app.get("/", async (req, res) => {
 });
 
 // Export the Express API
-module.exports = app;
+// module.exports = app;
